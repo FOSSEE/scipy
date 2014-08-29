@@ -11,6 +11,7 @@ body {
 #page-wrapper {
     width: 960px;
     margin: 25px auto 10px;
+    padding: 0 0 35px 0;
     background: #ffffff;
     -webkit-box-shadow: 0 0 10px #cccccc;
        -moz-box-shadow: 0 0 10px #cccccc;
@@ -86,4 +87,34 @@ body {
 }
 #footer a:hover {
     color: #333333;
+}
+#social {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #ffffff;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+         -o-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px #cccccc;
+       -moz-box-shadow: 0 0 3px #cccccc;
+         -o-box-shadow: 0 0 3px #cccccc;
+            box-shadow: 0 0 3px #cccccc;
+}
+#social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+#social ul li {
+    padding: 3px 0;
+}
+#social img {
+    width: 25px;
 }
