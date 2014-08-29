@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+.clearfix {
+    clear: both;
+}
+.garmond {
+    font-family: 'EB Garamond', serif;
+}
+body {
+    background: #f2f2f2;
+}
+#page-wrapper {
+    width: 960px;
+    margin: 25px auto 10px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+       -moz-box-shadow: 0 0 10px #cccccc;
+         -o-box-shadow: 0 0 10px #cccccc;
+            box-shadow: 0 0 10px #cccccc;
+    border-radius: 4px;
+    /*remove later*/
+    min-height: 700px;
+}
+#main-nav .navbar-default {
+    background: #ffffff;
+    border: none;
+    margin-bottom: 0px;
+}
+#main-nav {
+    font-family: 'EB Garamond', serif;
+    font-weight: 15px;
+}
+#main-nav .navbar-default .navbar-nav > .active > a {
+    background: #ffffff;
+    font-weight: bold;
+}
+#header{
+    height: 300px;
+    background: url("../images/jumbo_bg.jpg");
+    background-attachment: fixed;
+    color: #ffffff;
+}
+#header h1,
+#header h2,
+#header h3,
+#header h4,
+#header h5,
+#header h6 {
+    margin: 0;
+    padding: 0;
+}
+#header #stage {
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+#stage #scipy-logo,
+#stage #shout,
+#stage #subtle {
+    margin-bottom: 5px;
+}
+#stage #shout {
+    text-shadow: 0 0 3px #ffffff;
+}
+#stage #subtle {
+    font-family: 'EB Garamond', serif;
+}
+#stage .btn-default {
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#stage .btn-default:hover {
+    background: #ffffff;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+}
+#footer-wrapper {
+    width: 960px;
+    margin: 0 auto 25px;
+    color: #737373;
+}
+#footer a {
+    color: #737373;
+}
+#footer a:hover {
+    color: #333333;
+}
